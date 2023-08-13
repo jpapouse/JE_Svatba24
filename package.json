@@ -1,0 +1,21 @@
+{
+  "name": "je_svatba24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpapouse/JE_Svatba24.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpapouse/JE_Svatba24/issues"
+  },
+  "homepage": "https://github.com/jpapouse/JE_Svatba24#readme"
+}
