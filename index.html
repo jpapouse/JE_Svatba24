@@ -18,7 +18,7 @@
         <span class="NadpisPismo1">Chci přijít!</span>
         <span class="NadpisPismo2">Náš příběh</span>
         <span class="NadpisPismo3">Svatba</span>
-        <span class="NadpisPismo4">O stránce</span>
+        <span class="NadpisPismo4">Stránka</span>
         <span class="NadpisPismo5">Kontakty</span>
     </div>
     <span class="Úvod">Už teď se na tebe těšíme!<br>
@@ -128,11 +128,14 @@
                 console.log('Data saved successfully:', data);
                 // You can perform further actions or show a success message here
             })
+            .then(window.alert("Úspěšně uloženo!"))
+            .then(window.location.reload())
             .catch(error => {
                 console.error('Error saving data:', error);
                 // Handle any errors that occurred during the POST request
-            });
         }
+        )
+    }
     </script>
 </body>
 

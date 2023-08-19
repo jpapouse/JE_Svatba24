@@ -1,11 +1,11 @@
 .NadpisLista {
-    width: 339px;
-    height: 25px;
+    width: 380px;
+    height: 35px;
     background: rgba(217, 217, 217, 0.185);
     opacity: 1;
     position: absolute;
     top: 12px;
-    left: 25px;
+    left: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -13,14 +13,14 @@
   }
   
   .NadpisPismo1 {
-    width: 60px;
+    width: 80px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
     left: 0px;
     font-family: Crimson Text;
-    font-weight: Bold;
-    font-size: 13px;
+    font-weight: Bolder;
+    font-size: 13pt;
     opacity: 1;
     text-align: center;
     margin-top:4px;
@@ -29,14 +29,14 @@
   }
   
   .NadpisPismo2 {
-    width: 60px;
+    width: 80px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
-    left: 69px;
+    left: 88px;
     font-family: Crimson Text;
     font-weight: Bolder;
-    font-size: 13px;
+    font-size: 13pt;
     opacity: 1;
     text-align: center;
     text-shadow: 1pt;
@@ -49,10 +49,10 @@
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
-    left: 138px;
+    left: 174px;
     font-family: Crimson Text;
-    font-weight: Bold;
-    font-size: 13px;
+    font-weight: Bolder;
+    font-size: 13pt;
     opacity: 1;
     text-align: center;
     margin-top:4px;
@@ -60,14 +60,14 @@
     -webkit-text-stroke-width: 0.01pt;
   }
   .NadpisPismo4 {
-    width: 60px;
+    width: 70px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
-    left: 207px;
+    left: 235px;
     font-family: Crimson Text;
-    font-weight: Bold;
-    font-size: 13px;
+    font-weight: Bolder;
+    font-size: 13pt;
     opacity: 1;
     text-align: center;
     margin-top:4px;
@@ -75,15 +75,15 @@
     -webkit-text-stroke-width: 0.01pt;
   }
   .NadpisPismo5 {
-    width: 60px;
+    width: 70px;
     color: rgba(255,255,255,1);
     position: absolute;
     margin-top:4px;
     top: 0px;
-    left: 273px;
+    left: 310px;
     font-family: Crimson Text;
-    font-weight: Bold;
-    font-size: 13px;
+    font-weight: Bolder;
+    font-size: 13pt;
     opacity: 1;
     text-align: center;
     -webkit-text-stroke-color: black;
