@@ -1,5 +1,8 @@
-.NadpisLista {
-    width: 380px;
+
+@media only screen and (min-width: 480px) {
+
+  .NadpisLista {
+    width: 97%;
     height: 35px;
     background: rgba(217, 217, 217, 0.185);
     opacity: 1;
@@ -13,14 +16,14 @@
   }
   
   .NadpisPismo1 {
-    width: 80px;
+    width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 7%;
     font-family: Crimson Text;
     font-weight: Bolder;
-    font-size: 13pt;
+    font-size: 17pt;
     opacity: 1;
     text-align: center;
     margin-top:4px;
@@ -29,14 +32,14 @@
   }
   
   .NadpisPismo2 {
-    width: 80px;
+    width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
-    left: 88px;
+    left: 25%;
     font-family: Crimson Text;
     font-weight: Bolder;
-    font-size: 13pt;
+    font-size: 17pt;
     opacity: 1;
     text-align: center;
     text-shadow: 1pt;
@@ -45,14 +48,14 @@
     margin-top:4px;
   }
   .NadpisPismo3 {
-    width: 60px;
+    width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
-    left: 174px;
+    left: 43%;
     font-family: Crimson Text;
     font-weight: Bolder;
-    font-size: 13pt;
+    font-size: 17pt;
     opacity: 1;
     text-align: center;
     margin-top:4px;
@@ -60,14 +63,14 @@
     -webkit-text-stroke-width: 0.01pt;
   }
   .NadpisPismo4 {
-    width: 70px;
+    width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
-    left: 235px;
+    left: 61%;
     font-family: Crimson Text;
     font-weight: Bolder;
-    font-size: 13pt;
+    font-size: 17pt;
     opacity: 1;
     text-align: center;
     margin-top:4px;
@@ -75,31 +78,50 @@
     -webkit-text-stroke-width: 0.01pt;
   }
   .NadpisPismo5 {
-    width: 70px;
+    width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
     margin-top:4px;
     top: 0px;
-    left: 310px;
+    left: 79%;
     font-family: Crimson Text;
     font-weight: Bolder;
-    font-size: 13pt;
+    font-size: 17pt;
     opacity: 1;
     text-align: center;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.01pt;
   }
 
-  .Nadpis{
-    position:absolute;
-    left:130px;
-    top:54px;
-    font-size:16pt;
-    font-style: bolder;
-    text-decoration-line: underline;
-    z-index: -1;
+  .topnav {
+    display:none
+  }
+  
+  .topnav #myLinks {
+    display:none
+  }
+  
+  .topnav a {
+    display:none
+    
+  }
+  
+  .topnav a.icon {
+    display:none
 
   }
+  
+  .topnav a:hover {
+    display:none
+  }
+  
+  .active {
+    display:none
+  }
+}
+@media only screen and (max-width: 480px) 
+{
+
   .topnav {
     overflow: hidden;
     border-top-left-radius: 20px;
@@ -140,6 +162,7 @@
     z-index: 7;
     overflow:hidden;
     opacity:1;
+
   }
   
   .topnav a:hover {
@@ -156,8 +179,25 @@
     border-bottom-right-radius: 20px;
     z-index: 7;
   }
-  .HamburgerMenu{
-    color:black;
-    z-index: 7;
-    border-bottom: #ddd;
+
+  .NadpisLista {
+    display:none
   }
+  
+  .NadpisPismo1 {
+    display:none
+  }
+  
+  .NadpisPismo2 {
+    display:none
+  }
+  .NadpisPismo3 {
+    display:none
+  }
+  .NadpisPismo4 {
+    display:none
+  }
+  .NadpisPismo5 {
+    display:none
+  }
+}
