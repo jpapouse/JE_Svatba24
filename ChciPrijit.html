@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cormorant&display=swap" rel="stylesheet" />
+    <link href="./css/ChciPrijit.css" rel="stylesheet" />
+    <link href="./css/MenuBlue.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Chci Přijít</title>
+</head>
+
+<body class = "body">
+    
+    <div class="KytkaVlevoNahore"></div>
+    <div class="KytkaVpravoDole"></div>
+    <div class="NadpisLista">
+        <span class="NadpisPismo1" style="text-decoration-line: underline;color:black" href="ChciPrijit.html">Chci přijít!</span>
+        <span class="NadpisPismo2">Náš příběh</span>
+        <span class="NadpisPismo3">Svatba</span>
+        <span class="NadpisPismo4">O stránce</span>
+        <span class="NadpisPismo5">Kontakty</span>
+    </div>
+    <div class="topnav">
+        <div id="myLinks">
+          <a href="ChciPrijit.html" style="color:black">Chci přijít!</a>
+          <a href="#contact">Náš příběh</a>
+          <a href="#about">Svatba</a>
+          <a href="#about">O stránce</a>
+          <a href="#about">Kontakty</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <span class="Nadpis">Chci přijít</span>
+    <span class="Úvod">Už teď se na tebe těšíme!<br>
+        <br>Budeme ještě potřebovat pár informací:</span>
+    <div class = "box">
+        <div class="jmeno" >
+            <span class="jmeno_text">Tvé jméno a příjmení:</span>
+            <div>
+                <div class="input_text_jmeno">
+                    <input type="text" placeholder="Milan" id="Jméno">
+                </div>
+                <div class="input_text_prijmeni">
+                    <input type="text" placeholder="Novák" id="Příjmení">
+                </div>
+            </div>
+        </div>
+
+        <div class="email">
+            <span class="email_text">Email:</span>
+            <div class="input_text">
+                <input type="text" placeholder="emailaddress@gmail.com" id="Email">
+            </div>
+        </div>
+
+        <div class="telefon">
+            <span class="telefon_pismo">Telefon:</span>
+            <div class="input_text">
+                <input type="text" placeholder="+420123456789" id="Telefon">
+            </div>
+        </div>
+
+        <div class="intolerance">
+            <span class="intolerance_text">Potravinové intolerance a jiné preference:</span>
+            <div class="input_text">
+                <input type="text" placeholder="Mléčná laktóza" id="Intolerance">
+            </div>
+        </div>
+
+        <div class="vegetarian">
+            <span class="vegetarian_text">Jsi vegetarián/vegan? </span>
+            <div class="input_text">
+                <input type="text" placeholder="Vegetarián" id="Vegetarian">
+            </div>
+        </div>
+
+        <div class="alkohol">
+            <span class="alkohol_text">Jaký je tvůj oblíbený alkohol/drink?</span>
+            <div class="input_text">
+                <input type="text" placeholder="Sex on the beach" id="Alkohol">
+            </div>
+        </div>
+
+        <div class="prespani">
+            <span class="prespani_text">Budeš chtít přespat do neděle? </span>
+            <div class="input_text">
+                <input type="text" placeholder="Ano" id="Nocleh">
+            </div>
+        </div>
+
+        <div class="tip">
+            <span class="tip_text">Máte nějaký zajímavý nápad nebo tip?</span>
+            <div class="input_text">
+                <input type="text" placeholder="Dejte si pozor na držgrešle" id="Tipy">
+            </div>
+        </div>
+    </div>
+    <button class = "button" onclick = saveData()>Uložit</button>
+        
+        <div class="name"></div>
+    </div>
+    <script src="./js/scripts.js" type="text/javascript"></script>
+</body>
+
+</html>

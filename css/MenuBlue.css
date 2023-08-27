@@ -1,14 +1,14 @@
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 481px) {
 
   .NadpisLista {
-    width: 97%;
+    width: 94%;
     height: 35px;
-    background: rgba(217, 217, 217, 0.185);
+    background: #A5DADA;
     opacity: 1;
     position: absolute;
     top: 12px;
-    left: 5px;
+    left: 3%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -17,7 +17,7 @@
   
   .NadpisPismo1 {
     width: 100px;
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
     position: absolute;
     top: 0px;
     left: 7%;
@@ -33,7 +33,7 @@
   
   .NadpisPismo2 {
     width: 100px;
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
     position: absolute;
     top: 0px;
     left: 25%;
@@ -49,7 +49,7 @@
   }
   .NadpisPismo3 {
     width: 100px;
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
     position: absolute;
     top: 0px;
     left: 43%;
@@ -64,7 +64,7 @@
   }
   .NadpisPismo4 {
     width: 100px;
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
     position: absolute;
     top: 0px;
     left: 61%;
@@ -79,7 +79,7 @@
   }
   .NadpisPismo5 {
     width: 100px;
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
     position: absolute;
     margin-top:4px;
     top: 0px;
@@ -135,6 +135,7 @@
   .topnav #myLinks {
     display: none;
     z-index: 7;
+    top:0%;
   }
   
   .topnav a {
@@ -146,6 +147,7 @@
     background-color: #A5DADA;
     z-index: 7;
     opacity:1;
+
     
   }
   
