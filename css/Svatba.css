@@ -1,0 +1,450 @@
+@media only screen and (max-width: 480px) 
+{
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  z-index:1;
+  font-family: Cormorant;
+  font-size: 15pt;
+}
+.body {
+  width: 100%;
+  height: 1500px;
+  background-color: #D7EFEB;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin:0px;
+  position:relative;
+  z-index: -1;
+}
+.ObrazekPrstynky{
+  width: 25%;
+  height: 15%;
+  background: url("../images/v150_59.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: -50px;
+  left: 37.5%;
+  overflow: hidden;
+}
+.ObrazekHappyTogether{
+  width: 24%;
+  height: 10%;
+  background: url("../images/HappyTogether.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 1300px;
+  left: 38%;
+  overflow: hidden;
+}
+.PopisStranky {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 120px;
+  left: 5%;
+  font-family: Cormorant;
+  font-weight: Regular;
+  opacity: 1;
+  text-align: center;
+}
+.KdyKdeNadpis{
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 220px;
+  left: 15%;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.KdyKde {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 250px;
+  left: 5%;
+  opacity: 1;
+  text-align: left;
+}
+.Cara1 {
+  width: 94%;
+  height: 0px;
+  background: url("../images/v112_55.png");
+  opacity: 1;
+  position: absolute;
+  top: 480px;
+  left: 3%;
+  border: 0.02pt solid rgba(0,0,0);
+  z-index:-1;
+}
+.SpaniNadpis{
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 490px;
+  left: 15%;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.Spani {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 530px;
+  left: 5%;
+  opacity: 1;
+  text-align: left;
+}
+.Cara2 {
+  width: 94%;
+  height: 0px;
+  background: url("../images/v112_55.png");
+  opacity: 1;
+  position: absolute;
+  top: 750px;
+  left: 3%;
+  border: 0.02pt solid rgba(0,0,0);
+  z-index:-1;
+}
+.JidloPitiNadpis{
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 760px;
+  left: 15%;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.JidloPiti {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 790px;
+  left: 5%;
+  opacity: 1;
+  text-align: left;
+}
+.Cara3 {
+  width: 94%;
+  height: 0px;
+  background: url("../images/v112_55.png");
+  opacity: 1;
+  position: absolute;
+  top: 960px;
+  left: 3%;
+  border: 0.02pt solid rgba(0,0,0);
+  z-index:-1;
+}
+.ParbaNadpis{
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 970px;
+  left: 15%;
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.Parba {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1030px;
+  left: 5%;
+  opacity: 1;
+  text-align: left;
+}
+.Cara4 {
+  width: 94%;
+  height: 0px;
+  background: url("../images/v112_55.png");
+  opacity: 1;
+  position: absolute;
+  top: 1120px;
+  left: 3%;
+  border: 0.02pt solid rgba(0,0,0);
+  z-index:-1;
+}
+.DresscodeNadpis{
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1130px;
+  left: 15%;
+  opacity: 1;
+  text-align: center;
+  font-weight: Bold;
+}
+.Dresscode {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1170px;
+  left: 5%;
+  opacity: 1;
+  text-align: left;
+}
+.ObrazekDort {
+  width: 12%;
+  height: 14%;
+  background: url("../images/v162_57.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 570px;
+  left: 5%;
+  overflow: hidden;
+}
+.ObrazekParty {
+  width: 8%;
+  height: 10%;
+  background: url("../images/PartyImage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 750px;
+  left: 75%;
+  overflow: hidden;
+}
+
+}
+@media only screen and (min-width: 481px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+    z-index:1;
+    font-family: Cormorant;
+    font-size: 15pt;
+  }
+  .body {
+    width: 100%;
+    height: 1200px;
+    background-color: #D7EFEB;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin:0px;
+    position:relative;
+    z-index: -1;
+  }
+  .ObrazekPrstynky{
+    width: 10%;
+    height: 5%;
+    background: url("../images/v150_59.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 45%;
+    overflow: hidden;
+  }
+  .ObrazekHappyTogether{
+    width: 24%;
+    height: 10%;
+    background: url("../images/HappyTogether.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1060px;
+    left: 38%;
+    overflow: hidden;
+  }
+  .PopisStranky {
+    width: 60%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    font-family: Cormorant;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: center;
+  }
+  .KdyKdeNadpis{
+    width: 40%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  .KdyKde {
+    width: 80%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 250px;
+    left: 20%;
+    opacity: 1;
+    text-align: left;
+  }
+  .Cara1 {
+    width: 94%;
+    height: 0px;
+    background: url("../images/v112_55.png");
+    opacity: 1;
+    position: absolute;
+    top: 390px;
+    left: 3%;
+    border: 0.02pt solid rgba(0,0,0);
+    z-index:-1;
+  }
+  .SpaniNadpis{
+    width: 40%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  .Spani {
+    width: 80%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 460px;
+    left: 20%;
+    opacity: 1;
+    text-align: left;
+  }
+  .Cara2 {
+    width: 94%;
+    height: 0px;
+    background: url("../images/v112_55.png");
+    opacity: 1;
+    position: absolute;
+    top: 555px;
+    left: 3%;
+    border: 0.02pt solid rgba(0,0,0);
+    z-index:-1;
+  }
+  .JidloPitiNadpis{
+    width: 20%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 560px;
+    left: 40%;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  .JidloPiti {
+    width: 80%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 620px;
+    left: 20%;
+    opacity: 1;
+    text-align: left;
+  }
+  .Cara3 {
+    width: 94%;
+    height: 0px;
+    background: url("../images/v112_55.png");
+    opacity: 1;
+    position: absolute;
+    top: 740px;
+    left: 3%;
+    border: 0.02pt solid rgba(0,0,0);
+    z-index:-1;
+  }
+  .ParbaNadpis{
+    width: 20%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 750px;
+    left: 40%;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  .Parba {
+    width: 50%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 810px;
+    left: 20%;
+    opacity: 1;
+    text-align: left;
+  }
+  .Cara4 {
+    width: 94%;
+    height: 0px;
+    background: url("../images/v112_55.png");
+    opacity: 1;
+    position: absolute;
+    top: 875px;
+    left: 3%;
+    border: 0.02pt solid rgba(0,0,0);
+    z-index:-1;
+  }
+  .DresscodeNadpis{
+    width: 20%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 885px;
+    left: 40%;
+    opacity: 1;
+    text-align: center;
+    font-weight: Bold;
+  }
+  .Dresscode {
+    width: 80%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 945px;
+    left: 20%;
+    opacity: 1;
+    text-align: left;
+  }
+  .ObrazekDort {
+    width: 12%;
+    height: 14%;
+    background: url("../images/v162_57.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 570px;
+    left: 5%;
+    overflow: hidden;
+  }
+  .ObrazekParty {
+    width: 8%;
+    height: 10%;
+    background: url("../images/PartyImage.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 750px;
+    left: 75%;
+    overflow: hidden;
+  }
+}
