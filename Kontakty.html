@@ -33,27 +33,50 @@
           <i class="fa fa-bars"></i>
         </a>
     </div>
+    <span class="Úvod">Zde jsou po rozkliknutí k dispozici kontakty na nás.<br>
+      <br>Kdybyste potřebovali poradit nebo se na něčem domluvit, napište nám email nebo SMS.</span>
     <script>
-      function showhide()
+      function showhidezenich()
       {
-            var div = document.getElementById("newpost");
-     if (div.style.display !== "block") {
-         div.style.display = "block";
-     }
-     else {
-         div.style.display = "none";
-     }
+        var div = document.getElementById("ZenichuvBlock");
+        var div2 = document.getElementById("Nevesta");
+        if (div.style.display === "block") {
+            div.style.display = "none";
+            div2.style.top = "430px"
+            
+        }
+        else {
+            div.style.display = "block";
+            document.getElementById("ZenichuvBlock").innerHTML = "<li>Telefon: +420 774 530 257</li><li>Email: papousekjn@gmail.com</li>";
+            div2.style.top = "382px"
+          }
       }
    </script>
-    <div class="Kontakt">Kontakt na ženicha
-      <button id="button" onclick="showhide()">Zobraz kontakty ženicha</button>
-      <div id="newpost" class = "Zenich">
-        <li>Telefon: +420 774 530 257</li>
-        <li>Email: papousekjn@gmail.com</li>
-      </div>
+    <div class="KontaktZenich">Kontakt na ženicha
       
+      <div id="ZenichuvBlock" class = "Zenich">
+      </div>
     </div>
+    <button id="button" class = "tlacitko" onclick="showhidezenich()">Zobraz kontakty ženicha</button>
     <div class="Cara1"></div>
+    <script>
+      function showhidenevesta()
+      {
+        var div = document.getElementById("NevestyBlock");
+        if (div.style.display === "block") {
+            div.style.display = "none";
+        }
+        else {
+            div.style.display = "block";
+            document.getElementById("NevestyBlock").innerHTML = "<li>Telefon: +420 731 681 851</li><li>Email: sklenarovaeliska1@gmail.com</li>"
+        }
+      }
+   </script>
+    <div class="KontaktNevesta" id = "Nevesta">Kontakt na nevěstu
+      <div id="NevestyBlock" class = "Nevesta">
+      </div>
+    </div>
+    <button id="button" class = "tlacitko2" onclick="showhidenevesta()">Zobraz kontakty na nevěstu</button>
     <script src="./js/scripts.js" type="text/javascript"></script>
 </body>
 

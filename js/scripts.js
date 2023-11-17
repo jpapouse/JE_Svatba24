@@ -45,9 +45,8 @@ function myFunction() {
     .then(response => response.json())
     .then(data => {
         console.log('Data saved successfully:', data);
-        // You can perform further actions or show a success message here
+        window.alert("Úspěšně uloženo!")
     })
-    .then(window.alert("Úspěšně uloženo!"))
     .then(window.location.reload())
     .catch(error => {
         console.error('Error saving data:', error);
