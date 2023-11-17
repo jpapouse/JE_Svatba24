@@ -4,7 +4,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Cormorant&display=swap" rel="stylesheet" />
-    <link href="./css/ChciPrijit.css" rel="stylesheet" />
+    <link href="./css/Kontakty.css" rel="stylesheet" />
     <link href="./css/MenuBlue.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +33,27 @@
           <i class="fa fa-bars"></i>
         </a>
     </div>
+    <script>
+      function showhide()
+      {
+            var div = document.getElementById("newpost");
+     if (div.style.display !== "block") {
+         div.style.display = "block";
+     }
+     else {
+         div.style.display = "none";
+     }
+      }
+   </script>
+    <div class="Kontakt">Kontakt na ženicha
+      <button id="button" onclick="showhide()">Zobraz kontakty ženicha</button>
+      <div id="newpost" class = "Zenich">
+        <li>Telefon: +420 774 530 257</li>
+        <li>Email: papousekjn@gmail.com</li>
+      </div>
+      
+    </div>
+    <div class="Cara1"></div>
     <script src="./js/scripts.js" type="text/javascript"></script>
 </body>
 

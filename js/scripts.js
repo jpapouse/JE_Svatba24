@@ -17,6 +17,7 @@ function myFunction() {
     const Alkohol = document.getElementById('Alkohol').value;
     const Nocleh = document.getElementById('Nocleh').value;
     const Tipy = document.getElementById('Tipy').value;
+    const Pisne = document.getElementById('Pisne').value;
 
     // Create the request body object
     const requestBody = {
@@ -29,7 +30,8 @@ function myFunction() {
         Vegetarian: Vegetarian,
         Alkohol: Alkohol,
         Nocovani: Nocleh,
-        Tipy: Tipy}
+        Tipy: Tipy,
+        Pisne: Pisne}
     };
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "text/plain");

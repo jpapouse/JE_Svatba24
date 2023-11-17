@@ -1,0 +1,22 @@
+@media only screen and (max-width: 480px) 
+{
+.Kontakt{
+    top:200px;
+    position:relative;
+}
+.Zenich{
+    top:10px;
+    position:relative;
+}
+}
+@media only screen and (min-width: 481px) {
+    .Kontakt{
+top:200px;
+position:relative;
+    }
+    .Zenich{
+        top:10px;
+        position:relative;
+    }
+
+}

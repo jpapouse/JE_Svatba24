@@ -290,6 +290,31 @@ body {
   text-align: left;
   z-index: -1;
 }
+.pisne {
+  width: 100%;
+  height: 46px;
+  background: url("../images/v107_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  margin-top:25px;
+  z-index: -1;
+}
+.pisne_text {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 12pt;
+  font-family: Cormorant;
+  font-weight: Regular;
+  opacity: 1;
+  text-align: left;
+  z-index: -1;
+}
 .button{
   width:40%;
   height:40px;
@@ -297,7 +322,7 @@ body {
   font-size:14pt;
   color:black;
   position:absolute;
-  top:870px;
+  top:920px;
   left:30%;
   border-radius: 30px;
   outline:none;
@@ -593,7 +618,7 @@ input[type="text"]::placeholder {
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 960px;
+    top: 1000px;
     left: 35%;
     z-index: -1;
   }
@@ -963,6 +988,31 @@ input[type="text"]::placeholder {
     text-align: left;
     z-index: -1;
   }
+  .pisne {
+    width: 96%;
+    height: 46px;
+    background: url("../images/v107_30.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    margin-top:30px;
+    z-index: -1;
+  }
+  .pisne_text {
+    width: 332px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: Cormorant;
+    font-weight: Regular;
+    font-size: 15pt;
+    opacity: 1;
+    text-align: left;
+    z-index: -1;
+  }
    .button{
     width:15%;
     height:40px;
@@ -970,7 +1020,7 @@ input[type="text"]::placeholder {
     font-size:15pt;
     color:black;
     position:absolute;
-    top:910px;
+    top:970px;
     left:42.5%;
     border-radius: 30px;
     outline:none;
