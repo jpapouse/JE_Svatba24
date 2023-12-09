@@ -563,7 +563,7 @@ input[type="text"]::placeholder {
     box-sizing: border-box;
   }
   body {
-    font-size: 14px;
+    font-size: 14pt;
     z-index:1;
   }
   .body {
