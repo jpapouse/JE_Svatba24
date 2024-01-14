@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 14px;
+  font-size: 14pt;
   z-index:1;
   font-family: Cormorant;
 }
 .body {
   width: 100%;
-  height: 1500px;
-  background-color: #D7EFEB;
+  height: 2700px;
+  background-color: #E5DACA;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -21,29 +21,31 @@ body {
 }
 .ObrazekPrstynky{
   width: 25%;
-  height: 15%;
+  height: 3.5%;
   background: url("../images/v150_59.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: -50px;
+  top: 40px;
   left: 37.5%;
   overflow: hidden;
+  z-index: -1;
 }
 .ObrazekHappyTogether{
-  width: 24%;
-  height: 10%;
+  width: 34%;
+  height: 15%;
   background: url("../images/HappyTogether.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 1300px;
+  top: 2500px;
   left: 38%;
   overflow: hidden;
+  z-index: -1;
 }
 .PopisStranky {
   width: 90%;
@@ -55,6 +57,7 @@ body {
   font-weight: Regular;
   opacity: 1;
   text-align: center;
+  z-index: -1;
 }
 .KdyKdeNadpis{
   width: 70%;
@@ -65,6 +68,7 @@ body {
   opacity: 1;
   text-align: center;
   font-weight: bold;
+  z-index: -1;
 }
 .KdyKde {
   width: 90%;
@@ -74,6 +78,7 @@ body {
   left: 5%;
   opacity: 1;
   text-align: left;
+  z-index: -1;
 }
 .Cara1 {
   width: 94%;
@@ -95,6 +100,7 @@ body {
   opacity: 1;
   text-align: center;
   font-weight: bold;
+  z-index: -1;
 }
 .Spani {
   width: 90%;
@@ -104,6 +110,7 @@ body {
   left: 5%;
   opacity: 1;
   text-align: left;
+  z-index: -1;
 }
 .Cara2 {
   width: 94%;
@@ -125,6 +132,7 @@ body {
   opacity: 1;
   text-align: center;
   font-weight: bold;
+  z-index: -1;
 }
 .JidloPiti {
   width: 90%;
@@ -134,6 +142,7 @@ body {
   left: 5%;
   opacity: 1;
   text-align: left;
+  z-index: -1;
 }
 .Cara3 {
   width: 94%;
@@ -155,6 +164,7 @@ body {
   opacity: 1;
   text-align: center;
   font-weight: bold;
+  z-index: -1;
 }
 .Parba {
   width: 90%;
@@ -164,6 +174,7 @@ body {
   left: 5%;
   opacity: 1;
   text-align: left;
+  z-index: -1;
 }
 .Cara4 {
   width: 94%;
@@ -171,7 +182,7 @@ body {
   background: url("../images/v112_55.png");
   opacity: 1;
   position: absolute;
-  top: 1120px;
+  top: 1350px;
   left: 3%;
   border: 0.02pt solid rgba(0,0,0);
   z-index:-1;
@@ -180,23 +191,25 @@ body {
   width: 70%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1130px;
+  top: 1360px;
   left: 15%;
   opacity: 1;
   text-align: center;
   font-weight: Bold;
+  z-index: -1;
 }
 .Dresscode {
   width: 90%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1170px;
+  top: 1390px;
   left: 5%;
   opacity: 1;
   text-align: left;
+  z-index: -1;
 }
 .ObrazekDort {
-  width: 12%;
+  width: 20%;
   height: 14%;
   background: url("../images/v162_57.png");
   background-repeat: no-repeat;
@@ -204,12 +217,13 @@ body {
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 570px;
-  left: 5%;
+  top: 620px;
+  left: 75%;
   overflow: hidden;
+  z-index: -1;
 }
 .ObrazekParty {
-  width: 8%;
+  width: 16%;
   height: 10%;
   background: url("../images/PartyImage.png");
   background-repeat: no-repeat;
@@ -217,9 +231,135 @@ body {
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 750px;
+  top: 918px;
   left: 75%;
   overflow: hidden;
+  z-index: -1;
+}
+.image31 {
+  width: 40%;
+  height: 15%;
+  background: url("../images/image_31.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 1700px;
+  left: 10%;
+  overflow: hidden;
+}
+.image32 {
+  width: 40%;
+  height: 15%;
+  background: url("../images/image_32.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 1700px;
+  left: 55%;
+  overflow: hidden;
+}
+.image35 {
+  width: 20%;
+  height: 5%;
+  background: url("../images/image_35.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 2100px;
+  left: 10%;
+  overflow: hidden;
+}
+.image36 {
+  width: 20%;
+  height: 5%;
+  background: url("../images/image_36.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 2100px;
+  left: 40%;
+  overflow: hidden;
+}
+.image37 {
+  width: 20%;
+  height: 5%;
+  background: url("../images/image_37.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 2100px;
+  left: 70%;
+  overflow: hidden;
+}
+.Cara5 {
+  width: 94%;
+  height: 0px;
+  background: url("../images/v112_55.png");
+  opacity: 1;
+  position: absolute;
+  top: 2300px;
+  left: 3%;
+  border: 0.02pt solid rgba(0,0,0);
+  z-index:-1;
+}
+.DaryNadpis{
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2310px;
+  left: 15%;
+  opacity: 1;
+  text-align: center;
+  font-weight: Bold;
+}
+.Dary {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2340px;
+  left: 5%;
+  opacity: 1;
+  text-align: left;
+}
+.Cara6 {
+  width: 94%;
+  height: 0px;
+  background: url("../images/v112_55.png");
+  opacity: 1;
+  position: absolute;
+  top: 2500px;
+  left: 3%;
+  border: 0.02pt solid rgba(0,0,0);
+  z-index:-1;
+}
+.ZaverNadpis{
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2510px;
+  left: 15%;
+  opacity: 1;
+  text-align: center;
+  font-weight: Bold;
+}
+.Zaver {
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2540px;
+  left: 5%;
+  opacity: 1;
+  text-align: left;
 }
 
 }
@@ -234,8 +374,8 @@ body {
   }
   .body {
     width: 100%;
-    height: 1200px;
-    background-color: #D7EFEB;
+    height: 2600px;
+    background-color: #E5DACA;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -252,7 +392,7 @@ body {
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 45%;
     overflow: hidden;
   }
@@ -265,7 +405,7 @@ body {
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 1060px;
+    top: 2260px;
     left: 38%;
     overflow: hidden;
   }
@@ -291,22 +431,22 @@ body {
     font-weight: bold;
   }
   .KdyKde {
-    width: 80%;
+    width: 50%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 250px;
+    top: 230px;
     left: 20%;
     opacity: 1;
     text-align: left;
   }
   .Cara1 {
-    width: 94%;
+    width: 60%;
     height: 0px;
     background: url("../images/v112_55.png");
     opacity: 1;
     position: absolute;
     top: 390px;
-    left: 3%;
+    left: 20%;
     border: 0.02pt solid rgba(0,0,0);
     z-index:-1;
   }
@@ -321,22 +461,22 @@ body {
     font-weight: bold;
   }
   .Spani {
-    width: 80%;
+    width: 50%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 460px;
+    top: 430px;
     left: 20%;
     opacity: 1;
     text-align: left;
   }
   .Cara2 {
-    width: 94%;
+    width: 60%;
     height: 0px;
     background: url("../images/v112_55.png");
     opacity: 1;
     position: absolute;
-    top: 555px;
-    left: 3%;
+    top: 600px;
+    left: 20%;
     border: 0.02pt solid rgba(0,0,0);
     z-index:-1;
   }
@@ -344,29 +484,29 @@ body {
     width: 20%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 560px;
+    top: 610px;
     left: 40%;
     opacity: 1;
     text-align: center;
     font-weight: bold;
   }
   .JidloPiti {
-    width: 80%;
+    width: 50%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 620px;
+    top: 640px;
     left: 20%;
     opacity: 1;
     text-align: left;
   }
   .Cara3 {
-    width: 94%;
+    width: 60%;
     height: 0px;
     background: url("../images/v112_55.png");
     opacity: 1;
     position: absolute;
-    top: 740px;
-    left: 3%;
+    top: 810px;
+    left: 20%;
     border: 0.02pt solid rgba(0,0,0);
     z-index:-1;
   }
@@ -374,7 +514,7 @@ body {
     width: 20%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 750px;
+    top: 820px;
     left: 40%;
     opacity: 1;
     text-align: center;
@@ -384,19 +524,19 @@ body {
     width: 50%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 810px;
+    top: 850px;
     left: 20%;
     opacity: 1;
     text-align: left;
   }
   .Cara4 {
-    width: 94%;
+    width: 60%;
     height: 0px;
     background: url("../images/v112_55.png");
     opacity: 1;
     position: absolute;
-    top: 875px;
-    left: 3%;
+    top: 1040px;
+    left: 20%;
     border: 0.02pt solid rgba(0,0,0);
     z-index:-1;
   }
@@ -404,17 +544,17 @@ body {
     width: 20%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 885px;
+    top: 1050px;
     left: 40%;
     opacity: 1;
     text-align: center;
     font-weight: Bold;
   }
   .Dresscode {
-    width: 80%;
+    width: 50%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 945px;
+    top: 1080px;
     left: 20%;
     opacity: 1;
     text-align: left;
@@ -428,8 +568,8 @@ body {
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 570px;
-    left: 5%;
+    top: 520px;
+    left: 73%;
     overflow: hidden;
   }
   .ObrazekParty {
@@ -441,8 +581,134 @@ body {
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 750px;
+    top: 770px;
     left: 75%;
     overflow: hidden;
   }
+  .image31 {
+    width: 13%;
+    height: 20%;
+    background: url("../images/image_31.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1230px;
+    left: 20%;
+    overflow: hidden;
+  }
+  .image32 {
+    width: 13%;
+    height: 20%;
+    background: url("../images/image_32.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1250px;
+    left: 42%;
+    overflow: hidden;
+  }
+  .image35 {
+    width: 8%;
+    height: 10%;
+    background: url("../images/image_35.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1220px;
+    left: 65%;
+    overflow: hidden;
+  }
+  .image36 {
+    width: 8%;
+    height: 10%;
+    background: url("../images/image_36.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1350px;
+    left: 65%;
+    overflow: hidden;
+  }
+  .image37 {
+    width: 8%;
+    height: 10%;
+    background: url("../images/image_37.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    top: 1490px;
+    left: 65%;
+    overflow: hidden;
+  }
+  .Cara5 {
+    width: 60%;
+    height: 0px;
+    background: url("../images/v112_55.png");
+    opacity: 1;
+    position: absolute;
+    top: 1800px;
+    left: 20%;
+    border: 0.02pt solid rgba(0,0,0);
+    z-index:-1;
+  }
+  .DaryNadpis{
+    width: 20%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1810px;
+    left: 40%;
+    opacity: 1;
+    text-align: center;
+    font-weight: Bold;
+  }
+  .Dary {
+    width: 50%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1840px;
+    left: 20%;
+    opacity: 1;
+    text-align: left;
+  }
+  .Cara6 {
+    width: 60%;
+    height: 0px;
+    background: url("../images/v112_55.png");
+    opacity: 1;
+    position: absolute;
+    top: 2040px;
+    left: 20%;
+    border: 0.02pt solid rgba(0,0,0);
+    z-index:-1;
+  }
+  .ZaverNadpis{
+    width: 20%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 2050px;
+    left: 40%;
+    opacity: 1;
+    text-align: center;
+    font-weight: Bold;
+  }
+  .Zaver {
+    width: 50%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 2080px;
+    left: 20%;
+    opacity: 1;
+    text-align: left;
+  }
+
 }
