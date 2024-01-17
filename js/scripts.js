@@ -45,11 +45,12 @@ function myFunction() {
     .then(response => response.json())
     .then(data => {
         console.log('Data saved successfully:', data);
-        window.alert("Úspěšně uloženo!")
+        alert("Úspěšně uloženo!")
     })
     .then(window.location.reload())
     .catch(error => {
         console.error('Error saving data:', error);
+        alert("Problém s uložením - zkuste to znova, nebo kontaktujte správce systému")
         // Handle any errors that occurred during the POST request
         }
     )

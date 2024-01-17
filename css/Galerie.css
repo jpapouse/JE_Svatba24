@@ -23,7 +23,7 @@ body {
     color: rgba(0,0,0,1);
     position: absolute;
     top: 235px;
-    left: 50%;
+    left: 190px;
     font-family: Cormorant;
     font-weight: Medium;
     font-size: 12px;
@@ -87,7 +87,7 @@ body {
     z-index: -1;
   }
   .since {
-    width: 69px;
+    width: 80px;
     color: rgba(0,0,0,1);
     position: absolute;
     top: 207px;
@@ -211,16 +211,16 @@ body {
     z-index: -1;
   }
   .happytogether {
-    width: 158px;
+    width: 40%;
     height: 60px;
     background: url("../images/v235_20.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 1009px;
-    left: 128px;
+    top: 1150px;
+    left: 30%;
     overflow: hidden;
     z-index: -1;
   }
@@ -236,6 +236,19 @@ body {
     top: 582px;
     left: 20px;
     overflow: hidden;
+    z-index: -1;
+  }
+  .mapy {
+    width: 90%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1030px;
+    left: 5%;
+    font-family: Cormorant;
+    font-weight: Regular;
+    font-size: 13pt;
+    opacity: 1;
+    text-align: center;
     z-index: -1;
   }
 }
@@ -464,6 +477,19 @@ body {
     top: 40%;
     left: 51%;
     overflow: hidden;
+    z-index: -1;
+  }
+  .mapy {
+    width: 45%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 90%;
+    left: 27.5%;
+    font-family: Cormorant;
+    font-weight: Regular;
+    font-size: 13pt;
+    opacity: 1;
+    text-align: center;
     z-index: -1;
   }
 }

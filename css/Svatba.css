@@ -6,11 +6,10 @@
 body {
   font-size: 14pt;
   z-index:1;
-  font-family: Cormorant;
 }
 .body {
   width: 100%;
-  height: 2700px;
+  height: 2900px;
   background-color: #E5DACA;
   background-repeat: no-repeat;
   background-position: center center;
@@ -69,6 +68,7 @@ body {
   text-align: center;
   font-weight: bold;
   z-index: -1;
+  font-family: Cormorant;
 }
 .KdyKde {
   width: 90%;
@@ -79,6 +79,7 @@ body {
   opacity: 1;
   text-align: left;
   z-index: -1;
+  font-family: Cormorant;
 }
 .Cara1 {
   width: 94%;
@@ -101,6 +102,7 @@ body {
   text-align: center;
   font-weight: bold;
   z-index: -1;
+  font-family: Cormorant;
 }
 .Spani {
   width: 90%;
@@ -111,6 +113,7 @@ body {
   opacity: 1;
   text-align: left;
   z-index: -1;
+  font-family: Cormorant;
 }
 .Cara2 {
   width: 94%;
@@ -118,7 +121,7 @@ body {
   background: url("../images/v112_55.png");
   opacity: 1;
   position: absolute;
-  top: 750px;
+  top: 800px;
   left: 3%;
   border: 0.02pt solid rgba(0,0,0);
   z-index:-1;
@@ -127,22 +130,24 @@ body {
   width: 70%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 760px;
+  top: 810px;
   left: 15%;
   opacity: 1;
   text-align: center;
   font-weight: bold;
   z-index: -1;
+  font-family: Cormorant;
 }
 .JidloPiti {
   width: 90%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 790px;
+  top: 840px;
   left: 5%;
   opacity: 1;
   text-align: left;
   z-index: -1;
+  font-family: Cormorant;
 }
 .Cara3 {
   width: 94%;
@@ -150,7 +155,7 @@ body {
   background: url("../images/v112_55.png");
   opacity: 1;
   position: absolute;
-  top: 960px;
+  top: 1110px;
   left: 3%;
   border: 0.02pt solid rgba(0,0,0);
   z-index:-1;
@@ -159,22 +164,24 @@ body {
   width: 70%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 970px;
+  top: 1120px;
   left: 15%;
   opacity: 1;
   text-align: center;
   font-weight: bold;
   z-index: -1;
+  font-family: Cormorant;
 }
 .Parba {
   width: 90%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1030px;
+  top: 1180px;
   left: 5%;
   opacity: 1;
   text-align: left;
   z-index: -1;
+  font-family: Cormorant;
 }
 .Cara4 {
   width: 94%;
@@ -182,7 +189,7 @@ body {
   background: url("../images/v112_55.png");
   opacity: 1;
   position: absolute;
-  top: 1350px;
+  top: 1570px;
   left: 3%;
   border: 0.02pt solid rgba(0,0,0);
   z-index:-1;
@@ -191,47 +198,49 @@ body {
   width: 70%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1360px;
+  top: 1580px;
   left: 15%;
   opacity: 1;
   text-align: center;
   font-weight: Bold;
   z-index: -1;
+  font-family: Cormorant;
 }
 .Dresscode {
   width: 90%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 1390px;
+  top: 1610px;
   left: 5%;
   opacity: 1;
   text-align: left;
   z-index: -1;
+  font-family: Cormorant;
 }
 .ObrazekDort {
   width: 20%;
-  height: 14%;
+  height: 10%;
   background: url("../images/v162_57.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 620px;
-  left: 75%;
+  top: 900px;
+  left:75%;
   overflow: hidden;
   z-index: -1;
 }
 .ObrazekParty {
-  width: 16%;
-  height: 10%;
+  width: 20%;
+  height: 9%;
   background: url("../images/PartyImage.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 918px;
+  top: 1380px;
   left: 75%;
   overflow: hidden;
   z-index: -1;
@@ -245,7 +254,7 @@ body {
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 1700px;
+  top: 1940px;
   left: 10%;
   overflow: hidden;
 }
@@ -258,7 +267,7 @@ body {
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 1700px;
+  top: 1940px;
   left: 55%;
   overflow: hidden;
 }
@@ -271,7 +280,7 @@ body {
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 2100px;
+  top: 2340px;
   left: 10%;
   overflow: hidden;
 }
@@ -284,7 +293,7 @@ body {
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 2100px;
+  top: 2340px;
   left: 40%;
   overflow: hidden;
 }
@@ -297,7 +306,7 @@ body {
   background-size: contain;
   opacity: 1;
   position: absolute;
-  top: 2100px;
+  top: 2340px;
   left: 70%;
   overflow: hidden;
 }
@@ -307,7 +316,7 @@ body {
   background: url("../images/v112_55.png");
   opacity: 1;
   position: absolute;
-  top: 2300px;
+  top: 2490px;
   left: 3%;
   border: 0.02pt solid rgba(0,0,0);
   z-index:-1;
@@ -316,20 +325,22 @@ body {
   width: 70%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 2310px;
+  top: 2500px;
   left: 15%;
   opacity: 1;
   text-align: center;
   font-weight: Bold;
+  font-family: Cormorant;
 }
 .Dary {
   width: 90%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 2340px;
+  top: 2530px;
   left: 5%;
   opacity: 1;
   text-align: left;
+  font-family: Cormorant;
 }
 .Cara6 {
   width: 94%;
@@ -337,7 +348,7 @@ body {
   background: url("../images/v112_55.png");
   opacity: 1;
   position: absolute;
-  top: 2500px;
+  top: 2690px;
   left: 3%;
   border: 0.02pt solid rgba(0,0,0);
   z-index:-1;
@@ -346,20 +357,22 @@ body {
   width: 70%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 2510px;
+  top: 2700px;
   left: 15%;
   opacity: 1;
   text-align: center;
   font-weight: Bold;
+  font-family: Cormorant;
 }
 .Zaver {
   width: 90%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 2540px;
+  top: 2760px;
   left: 5%;
   opacity: 1;
   text-align: left;
+  font-family: Cormorant;
 }
 
 }
@@ -370,7 +383,6 @@ body {
   body {
     font-size: 14pt;
     z-index:1;
-    font-family: Cormorant;
   }
   .body {
     width: 100%;
@@ -392,7 +404,7 @@ body {
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 45%;
     overflow: hidden;
   }
@@ -429,6 +441,7 @@ body {
     opacity: 1;
     text-align: center;
     font-weight: bold;
+    font-family: Cormorant;
   }
   .KdyKde {
     width: 50%;
@@ -438,6 +451,7 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
   }
   .Cara1 {
     width: 60%;
@@ -459,6 +473,7 @@ body {
     opacity: 1;
     text-align: center;
     font-weight: bold;
+    font-family: Cormorant;
   }
   .Spani {
     width: 50%;
@@ -468,6 +483,7 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
   }
   .Cara2 {
     width: 60%;
@@ -489,6 +505,7 @@ body {
     opacity: 1;
     text-align: center;
     font-weight: bold;
+    font-family: Cormorant;
   }
   .JidloPiti {
     width: 50%;
@@ -498,6 +515,7 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
   }
   .Cara3 {
     width: 60%;
@@ -519,6 +537,7 @@ body {
     opacity: 1;
     text-align: center;
     font-weight: bold;
+    font-family: Cormorant;
   }
   .Parba {
     width: 50%;
@@ -528,6 +547,7 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
   }
   .Cara4 {
     width: 60%;
@@ -549,6 +569,7 @@ body {
     opacity: 1;
     text-align: center;
     font-weight: Bold;
+    font-family: Cormorant;
   }
   .Dresscode {
     width: 50%;
@@ -558,6 +579,7 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
   }
   .ObrazekDort {
     width: 12%;
@@ -670,6 +692,7 @@ body {
     opacity: 1;
     text-align: center;
     font-weight: Bold;
+    font-family: Cormorant;
   }
   .Dary {
     width: 50%;
@@ -679,6 +702,7 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
   }
   .Cara6 {
     width: 60%;
@@ -700,6 +724,7 @@ body {
     opacity: 1;
     text-align: center;
     font-weight: Bold;
+    font-family: Cormorant;
   }
   .Zaver {
     width: 50%;
@@ -709,6 +734,7 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
   }
 
 }

@@ -19,7 +19,7 @@ body {
   z-index: -1;
 }
 .KytkaVlevoNahore {
-    width: 40%;
+    width:100%;
     height: 10%;
     background: url("../images/Daco_1022757\ 1.png");
     background-repeat: no-repeat;
@@ -27,19 +27,19 @@ body {
     background-size:contain;
     opacity: 1;
     position: relative;
-    top: 90px;
-    left: 30%;
+    top: 30px;
+    left: 0%;
     z-index: -1;
     overflow:hidden;
     float:left;
   
 }
 .Úvod {
-  width: 60%;
+  width: 90%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 180px;
-  left: 20%;
+  top: 80px;
+  left: 5%;
   font-family: Cormorant;
   font-weight: Regular;
   font-size: 15pt;
@@ -48,21 +48,18 @@ body {
   z-index: -1;
 }
 .KytkaVpravoDole {
-  width: 60%;
+  width: 100%;
   height: 10%;
-  background: url("../images/Daco_5365061\ 1.png");
+  background: url("../images/Daco_5365061.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   opacity: 1;
   position: absolute;
   top: 980px;
-  left: 20%;
+  left: 0%;
   z-index: -1;
 }
-
-
-
 .Nadpis{
   position:absolute;
   left:20%;
@@ -215,7 +212,7 @@ body {
 
 .prespani {
   width: 100%;
-  height: 46px;
+  height: 60px;
   background: url("../images/v107_30.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -322,7 +319,7 @@ body {
   font-size:14pt;
   color:black;
   position:absolute;
-  top:940px;
+  top:970px;
   left:30%;
   border-radius: 30px;
   outline:none;
@@ -568,7 +565,7 @@ input[type="text"]::placeholder {
   }
   .body {
     width: 100%;
-    height: 1080px;
+    height: 1200px;
     background-color: #E5DACA;
     background-repeat: no-repeat;
     background-position: center center;
@@ -587,7 +584,7 @@ input[type="text"]::placeholder {
     background-size:contain;
     opacity: 1;
     position: relative;
-    top: 80px;
+    top: 60px;
     left: 40%;
     z-index: -1;
     overflow:hidden;
@@ -597,11 +594,11 @@ input[type="text"]::placeholder {
     display:none;
   }
   .Úvod {
-    width: 25%;
+    width: 45%;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 200px;
-    left: 37.5%;
+    top: 180px;
+    left: 27.5%;
     font-family: Cormorant;
     font-weight: Regular;
     font-size: 14pt;
@@ -610,16 +607,16 @@ input[type="text"]::placeholder {
     z-index: -1;
   }
   .KytkaVpravoDole {
-    width: 30%;
-    height: 10%;
-    background: url("../images/Daco_5365061\ 1.png");
+    width: 60%;
+    height: 15%;
+    background: url("../images/Daco_5365061.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 1000px;
-    left: 35%;
+    top: 1050px;
+    left: 20%;
     z-index: -1;
   }
   .box{
@@ -1020,7 +1017,7 @@ input[type="text"]::placeholder {
     font-size:15pt;
     color:black;
     position:absolute;
-    top:970px;
+    top:1000px;
     left:42.5%;
     border-radius: 30px;
     outline:none;
