@@ -9,7 +9,7 @@ body {
 }
 .body {
   width: 100%;
-  height: 2900px;
+  height: 2950px;
   background-color: #E5DACA;
   background-repeat: no-repeat;
   background-position: center center;
@@ -374,7 +374,17 @@ body {
   text-align: left;
   font-family: Cormorant;
 }
-
+.Podpis
+{
+  width: 90%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2860px;
+  left: 5%;
+  opacity: 1;
+  text-align: center;
+  font-family: Cormorant;
+}
 }
 @media only screen and (min-width: 481px) {
   * {
@@ -734,6 +744,16 @@ body {
     left: 20%;
     opacity: 1;
     text-align: left;
+    font-family: Cormorant;
+  }
+  .Podpis {
+    width: 50%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 2300px;
+    left: 25%;
+    opacity: 1;
+    text-align: center;
     font-family: Cormorant;
   }
 
