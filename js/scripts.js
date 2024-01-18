@@ -42,16 +42,15 @@ function myFunction() {
         body: JSON.stringify(requestBody),
         redirect: 'follow'
     })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Data saved successfully:', data);
+    .then(response => {
+      if (response.ok) {
+        console.log('Data saved successfully:', response);
         alert("Úspěšně uloženo!");
-        window.location.reload();
-    })
-    .catch(error => {
-        console.error('Error saving data:', error);
+      }
+      else{
+        console.error('Error saving data:', response);
         alert("Problém s uložením - zkuste to znova, nebo kontaktujte správce systému")
-        // Handle any errors that occurred during the POST request
-        }
-    )
+      };
+      })
+
 }
