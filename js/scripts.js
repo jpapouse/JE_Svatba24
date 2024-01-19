@@ -46,6 +46,7 @@ function myFunction() {
       if (response.ok) {
         console.log('Data saved successfully:', response);
         alert("Úspěšně uloženo!");
+        window.location.reload();
       }
       else{
         console.error('Error saving data:', response);
