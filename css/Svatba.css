@@ -606,14 +606,14 @@ body {
   }
   .ObrazekParty {
     width: 8%;
-    height: 10%;
+    height: 9%;
     background: url("../images/PartyImage.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     opacity: 1;
     position: absolute;
-    top: 770px;
+    top: 810px;
     left: 75%;
     overflow: hidden;
   }
@@ -755,6 +755,7 @@ body {
     opacity: 1;
     text-align: center;
     font-family: Cormorant;
+    font-size:20pt;
   }
 
 }
